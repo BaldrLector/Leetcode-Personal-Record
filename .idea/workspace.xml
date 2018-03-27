@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ba803c7-b247-4888-ae4d-221644ce3226" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/64. Minimum Path Sum/description.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/64. Minimum Path Sum/solution.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/70. Climbing Stairs/description.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/70. Climbing Stairs/solution.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/72. Edit Distance/description.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/72. Edit Distance/solution.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/75. Sort Colors/description.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/75. Sort Colors/solution.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/76. Minimum Window Substring/description.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/76. Minimum Window Substring/solution.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/78. Subsets/description.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/78. Subsets/solution.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/79. Word Search/description.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/79. Word Search/solution.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/84. Largest Rectangle in Histogram/description.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/84. Largest Rectangle in Histogram/solution.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/62. Unique Paths/solution.py" afterPath="$PROJECT_DIR$/62. Unique Paths/solution.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -148,7 +131,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FCND" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
