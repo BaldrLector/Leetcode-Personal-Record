@@ -1,23 +1,18 @@
 class Solution:
-    def exist(self, board, word):
-        if not board:
-            return False
-        for i in range(len(board)):
-            for j in range(len(board[0])):
-                if self.dfs(board, i, j, word):
-                    return True
-        return False
+    def largestRectangleArea(self, heights):
+        """
+        :type heights: List[int]
+        :rtype: int
+        """
+        heights.append(0)
+        stack = [-1]
+        ans = 0
+        for i in range(len(heights)):
+            while heights[i] < heights[stack[-1]]:
+                h = heights[stack.pop()]
+                w = i - stack[-1] - 1
+                ans = max(ans, h * w)
+            stack.append(i)
 
-    # check whether can find word, start at (i,j) position    
-    def dfs(self, board, i, j, word):
-        if len(word) == 0: # all the characters are checked
-            return True
-        if i<0 or i>=len(board) or j<0 or j>=len(board[0]) or word[0]!=board[i][j]:
-            return False
-        tmp = board[i][j]  # first character is found, check the remaining part
-        board[i][j] = "#"  # avoid visit agian 
-        # check whether can find "word" along one direction
-        res = self.dfs(board, i+1, j, word[1:]) or self.dfs(board, i-1, j, word[1:]) \
-              or self.dfs(board, i, j+1, word[1:]) or self.dfs(board, i, j-1, word[1:])
-        board[i][j] = tmp
-        return res
+        heights.pop()
+        return ans
